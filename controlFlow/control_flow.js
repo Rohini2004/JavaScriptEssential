@@ -40,3 +40,19 @@ console.log("User Category:", userCategory);
 let isAuthenticated=true;
 let authenticationStatus = isAuthenticated ? "Authenticated" : "Not authenticated";
 console.log("Authentication Status:", authenticationStatus);
+//practice task
+let Authorization = "Employee";
+let category;
+switch (Authorization){
+    case "Employee":
+        category ="Access to Dietary services";
+        break;
+    case "Enrolled Member":
+        category = "Access to Dietary Services and o-n-o interaction with dietician";
+        break;
+    case "Subscriber":
+        category = "Access to facilitate Dietary ";
+        break;
+    default: category ="Non Subscriber";
+}
+console.log("Category:",category);
